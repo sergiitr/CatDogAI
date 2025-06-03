@@ -6,11 +6,11 @@ CatDogAI es un proyecto de inteligencia artificial que clasifica imágenes de pe
 
 ## Características
 
-- Clasificación binaria de imágenes: gato vs perro.
-- Dataset personalizado para imágenes mezcladas en una sola carpeta (sin subcarpetas).
-- Entrenamiento con PyTorch usando CNN simple pero eficaz.
-- Interfaz gráfica desarrollada con Tkinter para mostrar imágenes y probabilidades.
-- Compatible con CPU y GPU (si está disponible).
+   - Clasificación binaria de imágenes: gato vs perro.
+   - Dataset personalizado para imágenes mezcladas en una sola carpeta (sin subcarpetas).
+   - Entrenamiento con PyTorch usando CNN simple pero eficaz.
+   - Interfaz gráfica desarrollada con Tkinter para mostrar imágenes y probabilidades.
+   - Compatible con CPU y GPU (si está disponible).
 
 ---
 
@@ -28,8 +28,8 @@ CatDogAI es un proyecto de inteligencia artificial que clasifica imágenes de pe
    pip install -r requirements.txt
 
 3. Prepara tu carpeta ./train con imágenes de gatos y perros. Los archivos deben comenzar con:
-- gato para imágenes de gatos.
-- perro para imágenes de perros.
+   - gato para imágenes de gatos.
+   - perro para imágenes de perros.
 
 ## Uso
 Ejecuta el script principal para entrenar el modelo y abrir la interfaz gráfica:
