@@ -35,3 +35,8 @@ CatDogAI es un proyecto de inteligencia artificial que clasifica imágenes de pe
 Ejecuta el script principal para entrenar el modelo y abrir la interfaz gráfica:
    ```bash
    python main.py
+   ```
+La ventana mostrará las imágenes junto con las probabilidades de que cada una sea gato o perro. Puedes navegar entre las imágenes usando los botones Anterior y Siguiente.
+
+## Modelo
+Se utiliza una CNN con dos capas convolucionales seguidas de capas lineales para clasificación binaria. El entrenamiento es por 5 épocas con Adam optimizer y función de pérdida CrossEntropy.
